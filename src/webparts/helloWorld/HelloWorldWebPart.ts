@@ -115,7 +115,7 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart <IHelloWorl
     const items: any[] = await web.lists.getByTitle("ProjectDetails").items.getAll();
     console.log(items);
     return this.domElement.innerHTML = `<div>
-        <h1>CRUD with No Javascript</h1>
+        <h1>CRUD Operations with No Javascript</h1>
         <table border="1" class="${styles.table}">
       <thead>
         <tr>
